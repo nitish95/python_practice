@@ -4,11 +4,13 @@
 # year divided by 4 is a leap year
 
 
-year= int(input("Enter the year: "))
-
-if (year%400 == 0) & (year%100 ==0):
-    print("It is leap year!!!")
-elif (year % 4 == 0) & (year % 100 != 0):
-    print("It is a leap year")
-else:
-    print("No leap year!!!")
+def leap_year(yr):
+    if yr % 4==0 and yr % 400 == 0 and yr % 100 == 0:
+        return "Leap Year!!!"
+    elif yr % 4 == 0 and yr % 100 != 0 and yr % 400 != 0:
+        return "Leap Year!!!"
+    else:
+        return "No Leap year"
+    
+year= (int(input("Enter the year: ")))
+print(leap_year(year))
