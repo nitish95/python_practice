@@ -1,10 +1,8 @@
-# Write a Python Program to Check if a Number is Odd or Even
+# Write a Python Program to Check if a Number is Odd or Even.
 
-def check(n):
-    if n%2 == 0:
-        return "Even number"
-    else:
-        return "Odd number"
+num = int(input("Enter number to check even or odd: "))
 
-number= int(input("Enter the number: "))
-print(check(number))
+if (num % 2) == 0:
+    print("Even number!!!")
+else:
+    print("Odd number!!!")
