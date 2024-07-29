@@ -1,0 +1,4 @@
+Explain your thought process clearly. Show the interviewer how you approach a problem and the logic behind your solution.
+Demonstrate good coding practices. Use proper indentation, meaningful variable names, and comments where necessary.
+Be prepared to discuss potential issues and edge cases. Show the interviewer that you understand the limitations of file handling and how to deal with them.
+Express your willingness to learn and adapt. If you don't know the answer to a specific question, be honest and explain how you would approach finding the solution.
